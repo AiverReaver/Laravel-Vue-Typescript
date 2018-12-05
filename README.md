@@ -53,6 +53,8 @@ Now install these npm packages with
 npm install
 ```
 
+# Add Typescript Support
+
 Then rename these files
 
 ```txt
@@ -287,7 +289,7 @@ Now finally change the "scripts" in `package.json`
     },
 
 ```
-
+# Finally build the project
 and run the npm scripts by 
 ```shell
 npm run dev // To build the Project
@@ -295,6 +297,7 @@ npm run watch // To build and watch for files changes and build automagically
 npm run prod // for production
 ```
 
+# Special thanks to
 This git repo is made possible by some online tutorial
 [teej](https://tj.ie/upgrading-to-webpack-4/).
 [Titas Gailius](https://medium.com/@titasgailius/initial-laravel-setup-with-vuejs-vue-router-vuex-in-typescript-305f7fe9d62b).
