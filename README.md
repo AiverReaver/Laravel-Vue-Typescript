@@ -38,8 +38,6 @@ Open the `package.json` and add these packages to devdependencies
         "vue": "^2.5.17",
         "vue-class-component": "^6.3.2",
         "vue-property-decorator": "^7.2.0",
-        "vue-router": "^3.0.2",
-        "vuex": "^3.0.1",
         "webpack": "^4.26.1",
         "webpack-cli": "^3.1.2",
         "vue-loader": "^15.4.2",
