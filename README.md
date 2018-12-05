@@ -25,7 +25,6 @@ Open the `package.json` and add these packages to devdependencies
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "jquery": "^3.2",
-        "clean-webpack-plugin": "^1.0.0",
         "cross-env": "^5.1",
         "css-loader": "^1.0.1",
         "mini-css-extract-plugin": "^0.4.5",
