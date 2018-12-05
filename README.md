@@ -297,7 +297,7 @@ npm run watch // To build and watch for files changes and build automagically
 npm run prod // for production
 ```
 
-# Special thanks to
+# Special thanks to:
 This git repo is made possible by some online tutorial
 [teej](https://tj.ie/upgrading-to-webpack-4/).
 [Titas Gailius](https://medium.com/@titasgailius/initial-laravel-setup-with-vuejs-vue-router-vuex-in-typescript-305f7fe9d62b).
