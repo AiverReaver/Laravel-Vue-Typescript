@@ -4,8 +4,6 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Vue Router Mounted');
-        }
+        
     }
 </script>
