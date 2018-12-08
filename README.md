@@ -25,7 +25,6 @@ Open the `package.json` and add these packages to devdependencies
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "jquery": "^3.2",
-        "clean-webpack-plugin": "^1.0.0",
         "cross-env": "^5.1",
         "css-loader": "^1.0.1",
         "mini-css-extract-plugin": "^0.4.5",
@@ -39,8 +38,6 @@ Open the `package.json` and add these packages to devdependencies
         "vue": "^2.5.17",
         "vue-class-component": "^6.3.2",
         "vue-property-decorator": "^7.2.0",
-        "vue-router": "^3.0.2",
-        "vuex": "^3.0.1",
         "webpack": "^4.26.1",
         "webpack-cli": "^3.1.2",
         "vue-loader": "^15.4.2",
@@ -52,6 +49,8 @@ Now install these npm packages with
 ```shell
 npm install
 ```
+
+# Add Typescript Support
 
 Then rename these files
 
@@ -281,13 +280,12 @@ Now finally change the "scripts" in `package.json`
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.config.js",
         "watch": "npm run development -- --watch",
         "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=webpack.config.js",
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=webpack.config.js"
     },
 
 ```
-
+# Finally build the project
 and run the npm scripts by 
 ```shell
 npm run dev // To build the Project
@@ -295,8 +293,11 @@ npm run watch // To build and watch for files changes and build automagically
 npm run prod // for production
 ```
 
-
-
+# Special thanks to
+This git repo is made possible by some online tutorial
+[teej](https://tj.ie/upgrading-to-webpack-4/).
+[Titas Gailius](https://medium.com/@titasgailius/initial-laravel-setup-with-vuejs-vue-router-vuex-in-typescript-305f7fe9d62b).
+[sebastiandedeyne](https://sebastiandedeyne.com/typescript-with-laravel-mix/).
 
 
 
