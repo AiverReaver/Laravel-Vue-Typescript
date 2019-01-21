@@ -12,9 +12,9 @@ First make sure you have composer and laravel installed
 ```sh
 laravel new Laravel-Vue-Typecript 
 ```
-Open the project in your any favraite code editor.
+Open the project in your any favourite code editor.
 
-Open the `package.json` and add these packages to devdependencies
+Open the `package.json` and add these packages to dependencies
 ```json
 {
    "devDependencies": {
