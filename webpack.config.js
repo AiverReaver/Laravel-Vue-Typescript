@@ -42,6 +42,15 @@ const WEBPACK_CONFIG = {
                     'sass-loader'
                 ],
                 exclude: /node_modules/,
+            },
+            {
+                test: /\.(ttf|eot|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: '/fonts',
+                    publicPath: '/fonts'
+                }
             }
         ],
     },
