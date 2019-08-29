@@ -3,6 +3,8 @@ This quick start guide will teach you how to get Laravel TypeScript and Vue work
 
 Laravel 5.7 uses Laravel-mix which down the line uses webpack 3 . Which is not what we want for typescript to work in laravel project.
 
+just copy webpack.config.js package.json and run npm install
+
 # Special thanks to
 This git repo is made possible by some online tutorial
 [teej](https://tj.ie/upgrading-to-webpack-4/).
