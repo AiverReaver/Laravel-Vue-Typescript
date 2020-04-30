@@ -18,7 +18,7 @@
         "cross-env": "5.1",
         "css-loader": "1.0.1",
         "file-loader": "^3.0.1",
-        "jquery": "^3.2",
+        "jquery": "^3.5",
         "lodash": "^4.17.5",
         "mini-css-extract-plugin": "0.4.5",
         "node-sass": "4.10.0",
