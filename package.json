@@ -12,7 +12,7 @@
     "devDependencies": {
         "auto-loader": "^0.2.0",
         "autoprefixer": "^9.4.1",
-        "axios": "^0.18",
+        "axios": "^0.21",
         "bootstrap": "^4.0.0",
         "clean-webpack-plugin": "1.0.0",
         "cross-env": "5.1",
